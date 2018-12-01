@@ -1,0 +1,86 @@
+/*
+Ocean Boat Blue: #067BC2
+Dark Sky Blue: #84BCDA
+Mikado Yellow: #ECC30B
+Mandarin: #F37748
+Indian Red: #D56062
+LemonChiffon: #FFFACD
+Turquoise: #40E0D0
+LightSalmon: #FFA07A
+Aquamarine:	#7FFFD4
+LightYellow: #FFFFE0
+*/
+
+header {
+  background-color: #40E0D0;
+  padding: 1em;
+  text-align: center;
+  font-family: Impact;
+}
+
+h1 {
+  color: #FFFACD;
+  font-size: 48px;
+}
+
+nav {
+  background-color: #F37748;
+  font-size: 24px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+}
+
+nav a {
+  color: #FFFACD;
+  text-decoration: none;
+  /* border-right: 1px solid #FFFACD; */
+  padding: 1em;
+  display: inline-block;
+}
+
+nav a:hover {
+background-color: #84BCDA;
+}
+
+#main_content {
+  background-color: #FFFFE0;
+  padding:1em;
+  overflow: hidden;
+  width: 100%
+}
+
+article {
+  float: left;
+  width: 80%
+}
+
+article p {
+  margin-right: 2em;
+}
+
+article h2,
+aside h3{
+  margin: 0;
+}
+
+.facts {
+  float: right;
+  background-color: #FFA07A;
+  margin: -1em;
+  width: 20%;
+  min-height: 400px;
+  padding:1em;
+}
+
+body {
+  margin: 0;
+}
